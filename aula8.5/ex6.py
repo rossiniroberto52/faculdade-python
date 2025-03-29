@@ -18,19 +18,19 @@ num_t = 4
 
 tent = int(input("Num entre 0 a 10 > "))
 if tent != num_c:
-    num_t - 1
-    print(f"tente mais uma vez. num de tentativas: {num_t}")
+    num_t-1
+    print(f"tente mais uma vez. num de tentativas: {num_t-1}")
     tent2 = int(input("Num entre 0 a 10 > "))
     if tent2 != num_c:
-        print(f"tente mais uma vez. num de tentativas: {num_t}")
-        num_t - 1
+        num_t-1
+        print(f"tente mais uma vez. num de tentativas: {num_t-2}")
         tent3 = int(input("Num entre 0 a 10 > "))
         if tent3 != num_c:
-            print(f"tente mais uma vez. num de tentativas: {num_t}")
-            num_t - 1
+            num_t-1
+            print(f"tente mais uma vez. num de tentativas: {num_t-3}")
             tent4 = int(input("Num entre 0 a 10 > "))
             if tent4 != num_c:
-                num_t - 1
+                num_t-1
                 print("Tentativas esgotadas")
             else:
                 print("Você acertou!")
