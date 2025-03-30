@@ -1,7 +1,7 @@
 from sympy import *
 
 ## run this on google colab (no need to download the sympy), but if you wanna run that on your machine use the commad: pip install sympy(windows)
-## and no need to use another lib to make the graphl
+## and use colab because you dont need to use another lib to make the graphl
 
 x = Symbol('x')
 y = Symbol('y')
